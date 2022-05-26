@@ -5,16 +5,12 @@ using UnityEngine;
 
 public class Quadtree : MonoBehaviour
 {
-    public int MAXPOINTS;
-    public int MEXDEPTH;
     public float x;
     public float y;
     public float width;
     public float height;
     public quad quadtre; 
     public GameObject object1;
-    public float count = 0;
-    public float delay = 150;
 
     void Start()
     {
